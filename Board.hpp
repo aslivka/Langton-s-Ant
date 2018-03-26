@@ -21,7 +21,7 @@ class Board
 private:
 	int m_height;
 	int m_width;
-	char white = ' ';
+	char white = '.';
 	char black = '#';
 	int m_maxSteps;
 	char** board = NULL;
